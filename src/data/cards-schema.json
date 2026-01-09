@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Credit Card Schema",
+  "description": "Schema for credit card data in the MVP",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "issuer",
+      "annualFee",
+      "rewards",
+      "eligibility"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the card"
+      },
+      "name": {
+        "type": "string",
+        "description": "Full name of the credit card"
+      },
+      "issuer": {
+        "type": "string",
+        "description": "Bank/issuer name (e.g., 'Chase', 'American Express', 'Capital One')"
+      },
+      "annualFee": {
+        "type": "number",
+        "description": "Annual fee in dollars (0 if no annual fee)"
+      },
+      "rewards": {
+        "type": "object",
+        "description": "Reward rates by category",
+        "properties": {
+          "gas": {
+            "type": "number",
+            "description": "Reward rate for gas (as decimal, e.g., 0.03 for 3%)"
+          },
+          "groceries": {
+            "type": "number",
+            "description": "Reward rate for groceries (as decimal)"
+          },
+          "dining": {
+            "type": "number",
+            "description": "Reward rate for dining (as decimal)"
+          },
+          "travel": {
+            "type": "number",
+            "description": "Reward rate for travel (as decimal)"
+          },
+          "other": {
+            "type": "number",
+            "description": "Reward rate for other spending (as decimal)"
+          },
+          "bonus": {
+            "type": "object",
+            "description": "Optional sign-up bonus",
+            "properties": {
+              "amount": {
+                "type": "number",
+                "description": "Bonus amount in dollars (cash value equivalent for points-based cards)"
+              },
+              "spendRequired": {
+                "type": "number",
+                "description": "Minimum spending required in dollars"
+              },
+              "monthsToComplete": {
+                "type": "number",
+                "description": "Number of months to complete the spending requirement"
+              }
+            }
+          }
+        },
+        "required": ["gas", "groceries", "dining", "travel", "other"]
+      },
+      "eligibility": {
+        "type": "object",
+        "description": "Eligibility requirements for the card",
+        "properties": {
+          "student": {
+            "type": "boolean",
+            "description": "Is this card available to students?"
+          },
+          "minAge": {
+            "type": "number",
+            "description": "Minimum age requirement (typically 18 or 21)"
+          },
+          "creditScoreMin": {
+            "type": "number",
+            "description": "Minimum credit score required (optional)"
+          }
+        }
+      },
+      "features": {
+        "type": "object",
+        "description": "Additional features of the card",
+        "properties": {
+          "noForeignTransactionFee": {
+            "type": "boolean",
+            "description": "No foreign transaction fees"
+          },
+          "travelBenefits": {
+            "type": "boolean",
+            "description": "Travel-related benefits (airport lounge, travel insurance, etc.)"
+          },
+          "apr": {
+            "type": "number",
+            "description": "Annual Percentage Rate (for users who carry balance)"
+          }
+        }
+      },
+      "description": {
+        "type": "string",
+        "description": "Brief description of the card"
+      }
+    }
+  }
+}
+
