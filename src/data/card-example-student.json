@@ -1,0 +1,105 @@
+{
+  "id": "discover-it-student",
+  "name": "Discover it Student Cash Back",
+  "issuer": "Discover",
+  "identity": {
+    "isStudentCard": true,
+    "isBusinessCard": false,
+    "starterFriendly": true
+  },
+  "costs": {
+    "annualFee": 0,
+    "aprPurchase": {
+      "min": 17.24,
+      "max": 26.24
+    },
+    "foreignTransactionFee": 0
+  },
+  "rewards": {
+    "baseRate": 0.01,
+    "categoryRates": {
+      "dining": 0.01,
+      "groceries": 0.01,
+      "gas": 0.01,
+      "travel": 0.01,
+      "transit": 0.01,
+      "drugstores": 0.01,
+      "streaming": 0.01,
+      "onlineShopping": 0.01,
+      "entertainment": 0.01,
+      "homeImprovement": 0.01,
+      "utilities": 0.01,
+      "other": 0.01
+    },
+    "caps": {},
+    "rotatingCategories": {
+      "enabled": true,
+      "rate": 0.05,
+      "cap": {
+        "amount": 1500,
+        "period": "quarterly"
+      },
+      "activationRequired": true,
+      "categories": [
+        "gas",
+        "groceries",
+        "restaurants",
+        "wholesale",
+        "streaming",
+        "amazon",
+        "target",
+        "walmart",
+        "paypal"
+      ]
+    },
+    "signUpBonus": {
+      "amount": 0,
+      "spendRequired": 0,
+      "monthsToComplete": 0,
+      "description": "Cashback Match: Discover automatically matches all the cash back you've earned at the end of your first year"
+    }
+  },
+  "travelPerks": {
+    "noForeignTxFee": true,
+    "tripDelayCoverage": false,
+    "baggageDelayCoverage": false,
+    "lostLuggageCoverage": false,
+    "rentalCarCDW": false,
+    "loungeAccess": false,
+    "travelPortalBonus": false,
+    "travelInsurance": false,
+    "tsaPrecheckCredit": 0,
+    "annualTravelCredit": 0,
+    "concierge": false,
+    "transferPartners": false
+  },
+  "businessFeatures": {
+    "employeeCards": false,
+    "employeeCardFee": 0,
+    "expenseTools": false,
+    "yearEndSummary": false,
+    "vendorPayments": false
+  },
+  "eligibility": {
+    "minAge": 18,
+    "creditScoreMin": 630,
+    "requiresIncome": false,
+    "requiresCosignerUnder21": false
+  },
+  "trust": {
+    "lastVerifiedDate": "2025-01-09",
+    "sourceUrl": "https://www.discover.com/credit-cards/student/student-cash-back.html",
+    "termsUrl": "https://www.discover.com/credit-cards/student/student-cash-back.html#terms",
+    "dataSource": "issuer_website"
+  },
+  "description": "Student card with rotating 5% categories, cashback match for first year, and good approval odds for students",
+  "highlights": [
+    "5% cash back on rotating quarterly categories",
+    "Cashback Match at end of first year",
+    "Good grade reward ($20 per school year)",
+    "No annual fee",
+    "No foreign transaction fees",
+    "No late fee on first late payment"
+  ]
+}
+

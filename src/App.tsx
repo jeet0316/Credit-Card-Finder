@@ -1,35 +1,115 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import Onboarding from './components/Onboarding';
+import PurposePicker from './components/PurposePicker';
+import SpendingInputs from './components/SpendingInputs';
+import Results from './components/Results';
+import type { UserProfile, Eligibility, PaymentBehavior, MonthlySpending, UserPurpose } from './types/UserProfile';
+import './App.css';
+
+type FlowStep = 'onboarding' | 'purpose' | 'spending' | 'results';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [currentStep, setCurrentStep] = useState<FlowStep>('onboarding');
+  const [eligibility, setEligibility] = useState<Eligibility | null>(null);
+  const [paymentBehavior, setPaymentBehavior] = useState<PaymentBehavior | null>(null);
+  const [creditScore, setCreditScore] = useState<number | undefined>(undefined);
+  const [purpose, setPurpose] = useState<UserPurpose | null>(null);
+  const [monthlySpending, setMonthlySpending] = useState<MonthlySpending | null>(null);
+
+  const handleOnboardingComplete = (
+    newEligibility: Eligibility,
+    newPaymentBehavior: PaymentBehavior,
+    newCreditScore?: number
+  ) => {
+    setEligibility(newEligibility);
+    setPaymentBehavior(newPaymentBehavior);
+    setCreditScore(newCreditScore);
+    setCurrentStep('purpose');
+  };
+
+  const handlePurposeSelect = (selectedPurpose: UserPurpose) => {
+    setPurpose(selectedPurpose);
+    setCurrentStep('spending');
+  };
+
+  const handleSpendingComplete = (spending: MonthlySpending) => {
+    setMonthlySpending(spending);
+    setCurrentStep('results');
+  };
+
+  const handleBack = () => {
+    if (currentStep === 'purpose') {
+      setCurrentStep('onboarding');
+    } else if (currentStep === 'spending') {
+      setCurrentStep('purpose');
+    } else if (currentStep === 'results') {
+      setCurrentStep('spending');
+    }
+  };
+
+  const handleReset = () => {
+    setCurrentStep('onboarding');
+    setEligibility(null);
+    setPaymentBehavior(null);
+    setCreditScore(undefined);
+    setPurpose(null);
+    setMonthlySpending(null);
+  };
+
+  // Build user profile when we have all data
+  const userProfile: UserProfile | null =
+    eligibility && paymentBehavior && purpose && monthlySpending
+      ? {
+          purpose,
+          monthlySpending,
+          eligibility,
+          paymentBehavior: {
+            ...paymentBehavior,
+            needsTravelBenefits: purpose === 'travel',
+          },
+          filters: creditScore ? { minCreditScore: creditScore } : undefined,
+        }
+      : null;
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app-container">
+      <div className="app-content">
+        {currentStep === 'onboarding' && (
+          <Onboarding
+            onComplete={handleOnboardingComplete}
+            initialEligibility={eligibility}
+            initialPaymentBehavior={paymentBehavior}
+            initialCreditScore={creditScore}
+          />
+        )}
+
+        {currentStep === 'purpose' && (
+          <PurposePicker
+            onSelect={handlePurposeSelect}
+            onBack={handleBack}
+            initialPurpose={purpose}
+          />
+        )}
+
+        {currentStep === 'spending' && (
+          <SpendingInputs
+            onComplete={handleSpendingComplete}
+            onBack={handleBack}
+            initialSpending={monthlySpending}
+            purpose={purpose || undefined}
+          />
+        )}
+
+        {currentStep === 'results' && userProfile && (
+          <Results
+            userProfile={userProfile}
+            onReset={handleReset}
+            onBack={handleBack}
+          />
+        )}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
