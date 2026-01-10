@@ -1,0 +1,105 @@
+{
+  "id": "chase-ink-business-preferred",
+  "name": "Ink Business Preferred Credit Card",
+  "issuer": "Chase",
+  "identity": {
+    "isStudentCard": false,
+    "isBusinessCard": true,
+    "starterFriendly": false
+  },
+  "costs": {
+    "annualFee": 95,
+    "aprPurchase": {
+      "min": 18.49,
+      "max": 24.49
+    },
+    "foreignTransactionFee": 0
+  },
+  "rewards": {
+    "baseRate": 0.01,
+    "categoryRates": {
+      "dining": 0.01,
+      "groceries": 0.01,
+      "gas": 0.01,
+      "travel": 0.03,
+      "transit": 0.01,
+      "drugstores": 0.01,
+      "streaming": 0.01,
+      "onlineShopping": 0.03,
+      "entertainment": 0.01,
+      "homeImprovement": 0.01,
+      "utilities": 0.03,
+      "other": 0.01
+    },
+    "caps": {
+      "travel": {
+        "amount": 150000,
+        "period": "yearly"
+      },
+      "onlineShopping": {
+        "amount": 150000,
+        "period": "yearly"
+      },
+      "utilities": {
+        "amount": 150000,
+        "period": "yearly"
+      }
+    },
+    "rotatingCategories": {
+      "enabled": false
+    },
+    "signUpBonus": {
+      "amount": 1200,
+      "spendRequired": 8000,
+      "monthsToComplete": 3,
+      "description": "100,000 bonus points after you spend $8,000 on purchases in the first 3 months"
+    }
+  },
+  "travelPerks": {
+    "noForeignTxFee": true,
+    "tripDelayCoverage": true,
+    "baggageDelayCoverage": true,
+    "lostLuggageCoverage": true,
+    "rentalCarCDW": true,
+    "loungeAccess": false,
+    "travelPortalBonus": true,
+    "travelInsurance": true,
+    "tsaPrecheckCredit": 0,
+    "annualTravelCredit": 0,
+    "concierge": false,
+    "transferPartners": true
+  },
+  "businessFeatures": {
+    "employeeCards": true,
+    "employeeCardFee": 0,
+    "expenseTools": true,
+    "yearEndSummary": true,
+    "vendorPayments": false,
+    "accountingIntegration": ["QuickBooks", "Xero"],
+    "spendingLimits": true,
+    "categoryRestrictions": true,
+    "receiptCapture": true
+  },
+  "eligibility": {
+    "minAge": 18,
+    "creditScoreMin": 690,
+    "requiresIncome": true,
+    "requiresCosignerUnder18": false
+  },
+  "trust": {
+    "lastVerifiedDate": "2025-01-09",
+    "sourceUrl": "https://www.chase.com/business/credit-cards/ink-business-preferred",
+    "termsUrl": "https://creditcards.chase.com/business-credit-cards/ink/preferred/terms",
+    "dataSource": "issuer_website"
+  },
+  "description": "Business card with 3x points on travel, shipping, internet, cable, phone services, and advertising purchases (first $150k annually)",
+  "highlights": [
+    "3x points on travel, shipping, internet, cable, phone, and advertising",
+    "100,000 bonus points after $8,000 spend",
+    "Points worth 1.25x when redeeming for travel",
+    "Free employee cards",
+    "Expense management tools",
+    "Year-end summary reports"
+  ]
+}
+

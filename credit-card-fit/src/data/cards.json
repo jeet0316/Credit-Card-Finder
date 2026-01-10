@@ -1,0 +1,3253 @@
+[
+  {
+    "id": "chase-sapphire-preferred",
+    "name": "Chase Sapphire Preferred",
+    "issuer": "Chase",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.03,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 4000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.49
+    },
+    "description": "Premium travel rewards card with dining and travel bonuses"
+  },
+  {
+    "id": "chase-sapphire-reserve",
+    "name": "Chase Sapphire Reserve",
+    "issuer": "Chase",
+    "annualFee": 550,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.03,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 750,
+        "spendRequired": 4000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 750
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 22.49
+    },
+    "description": "Premium travel card with $300 annual travel credit, lounge access, and 3x on travel/dining"
+  },
+  {
+    "id": "chase-freedom-unlimited",
+    "name": "Chase Freedom Unlimited",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.03,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 20.49
+    },
+    "description": "No annual fee card with 1.5% cash back on everything, 3% on dining"
+  },
+  {
+    "id": "chase-freedom-flex",
+    "name": "Chase Freedom Flex",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.03,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 20.49
+    },
+    "description": "Rotating 5% quarterly categories, 3% dining, 1% everything else"
+  },
+  {
+    "id": "amex-gold",
+    "name": "American Express Gold Card",
+    "issuer": "American Express",
+    "annualFee": 250,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.04,
+      "dining": 0.04,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 900,
+        "spendRequired": 6000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": null
+    },
+    "description": "4x points on dining and groceries, $120 annual dining credit, $120 Uber credit"
+  },
+  {
+    "id": "amex-platinum",
+    "name": "The Platinum Card from American Express",
+    "issuer": "American Express",
+    "annualFee": 695,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 1000,
+        "spendRequired": 8000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 750
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": null
+    },
+    "description": "Luxury travel card with lounge access, hotel status, and premium travel benefits"
+  },
+  {
+    "id": "amex-blue-cash-preferred",
+    "name": "Blue Cash Preferred Card from American Express",
+    "issuer": "American Express",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.06,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 350,
+        "spendRequired": 3000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.24
+    },
+    "description": "6% cash back on groceries (up to $6k/year), 6% on streaming, 3% on gas"
+  },
+  {
+    "id": "amex-blue-cash-everyday",
+    "name": "Blue Cash Everyday Card from American Express",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.03,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 2000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.24
+    },
+    "description": "No annual fee card with 3% cash back on groceries, gas, and online retail"
+  },
+  {
+    "id": "citi-double-cash",
+    "name": "Citi Double Cash",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.24
+    },
+    "description": "Simple 2% cash back on all purchases - 1% when you buy, 1% when you pay"
+  },
+  {
+    "id": "citi-custom-cash",
+    "name": "Citi Custom Cash",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1500,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.24
+    },
+    "description": "5% cash back on your top spending category each month (up to $500), 1% everything else"
+  },
+  {
+    "id": "citi-premier",
+    "name": "Citi Premier Card",
+    "issuer": "Citi",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.03,
+      "dining": 0.03,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 4000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "3x points on restaurants, supermarkets, gas stations, air travel, and hotels"
+  },
+  {
+    "id": "capital-one-venture",
+    "name": "Capital One Venture Rewards",
+    "issuer": "Capital One",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 750,
+        "spendRequired": 4000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 19.99
+    },
+    "description": "2x miles on every purchase, transfer partners, no foreign transaction fees"
+  },
+  {
+    "id": "capital-one-venture-x",
+    "name": "Capital One Venture X",
+    "issuer": "Capital One",
+    "annualFee": 395,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.05,
+      "other": 0.02,
+      "bonus": {
+        "amount": 750,
+        "spendRequired": 4000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 740
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 19.99
+    },
+    "description": "Premium travel card with $300 annual travel credit, lounge access, 10k anniversary miles"
+  },
+  {
+    "id": "capital-one-savor",
+    "name": "Capital One Savor Cash Rewards",
+    "issuer": "Capital One",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.03,
+      "dining": 0.04,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "4% cash back on dining and entertainment, 3% groceries, 1% everything else"
+  },
+  {
+    "id": "capital-one-savor-one",
+    "name": "Capital One SavorOne Cash Rewards",
+    "issuer": "Capital One",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.03,
+      "dining": 0.03,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 630
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "No annual fee version: 3% dining, entertainment, groceries, 1% everything else"
+  },
+  {
+    "id": "capital-one-quicksilver",
+    "name": "Capital One Quicksilver Cash Rewards",
+    "issuer": "Capital One",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.015,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 630
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "Simple 1.5% cash back on every purchase with no annual fee"
+  },
+  {
+    "id": "discover-it-student",
+    "name": "Discover it Student Cash Back",
+    "issuer": "Discover",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": true,
+      "minAge": 18,
+      "creditScoreMin": 630
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 17.24
+    },
+    "description": "Student-friendly card with rotating 5% categories and cashback match for first year"
+  },
+  {
+    "id": "discover-it-cash-back",
+    "name": "Discover it Cash Back",
+    "issuer": "Discover",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 17.24
+    },
+    "description": "Rotating 5% quarterly categories, 1% everything else, cashback match first year"
+  },
+  {
+    "id": "discover-it-miles",
+    "name": "Discover it Miles",
+    "issuer": "Discover",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.015,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 17.24
+    },
+    "description": "1.5x miles on all purchases, miles match after first year"
+  },
+  {
+    "id": "wells-fargo-active-cash",
+    "name": "Wells Fargo Active Cash",
+    "issuer": "Wells Fargo",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "Unlimited 2% cash rewards on purchases with no annual fee"
+  },
+  {
+    "id": "wells-fargo-autograph",
+    "name": "Wells Fargo Autograph",
+    "issuer": "Wells Fargo",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.01,
+      "dining": 0.03,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 300,
+        "spendRequired": 1500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "3x points on restaurants, travel, gas stations, transit, popular streaming, phone plans"
+  },
+  {
+    "id": "bank-of-america-customized-cash",
+    "name": "Bank of America Customized Cash Rewards",
+    "issuer": "Bank of America",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.24
+    },
+    "description": "3% cash back in category of choice (gas, online shopping, dining, travel, drug stores, home improvements)"
+  },
+  {
+    "id": "bank-of-america-unlimited-cash",
+    "name": "Bank of America Unlimited Cash Rewards",
+    "issuer": "Bank of America",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.015,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.24
+    },
+    "description": "Unlimited 1.5% cash back on all purchases with no annual fee"
+  },
+  {
+    "id": "us-bank-cash-plus",
+    "name": "U.S. Bank Cash+ Visa",
+    "issuer": "U.S. Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "5% cash back on first $2,000 in combined eligible purchases each quarter on two categories you choose"
+  },
+  {
+    "id": "us-bank-altitude-go",
+    "name": "U.S. Bank Altitude Go Visa",
+    "issuer": "U.S. Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.04,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "4x points on dining, 2x on groceries, gas, and streaming, no annual fee, no foreign transaction fees"
+  },
+  {
+    "id": "barclays-aadvantage-aviator",
+    "name": "AAdvantage Aviator Red World Elite Mastercard",
+    "issuer": "Barclays",
+    "annualFee": 99,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 1,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "American Airlines miles, 2x on American Airlines purchases, first checked bag free"
+  },
+  {
+    "id": "delta-skymiles-gold",
+    "name": "Delta SkyMiles Gold American Express",
+    "issuer": "American Express",
+    "annualFee": 99,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 350,
+        "spendRequired": 2000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": 20.99
+    },
+    "description": "Delta miles, 2x miles on Delta purchases and at restaurants worldwide, first checked bag free"
+  },
+  {
+    "id": "united-explorer",
+    "name": "United Explorer Card",
+    "issuer": "Chase",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 3000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.99
+    },
+    "description": "United miles, 2x miles on United purchases and dining, first checked bag free, TSA PreCheck credit"
+  },
+  {
+    "id": "southwest-rapid-rewards-plus",
+    "name": "Southwest Rapid Rewards Plus",
+    "issuer": "Chase",
+    "annualFee": 69,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 300,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": 21.99
+    },
+    "description": "Southwest points, 2x points on Southwest purchases, early bird check-in discounts"
+  },
+  {
+    "id": "marriott-bonvoy-bountiful",
+    "name": "Marriott Bonvoy Bountiful Card",
+    "issuer": "Chase",
+    "annualFee": 250,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.04,
+      "dining": 0.03,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 850,
+        "spendRequired": 5000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.49
+    },
+    "description": "Marriott points, 6x at Marriott, 4x on U.S. gas stations, U.S. restaurants, and U.S. supermarkets"
+  },
+  {
+    "id": "chase-ink-business-unlimited",
+    "name": "Ink Business Unlimited",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.015,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 900,
+        "spendRequired": 6000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.49
+    },
+    "description": "Business card with unlimited 1.5% cash back on all purchases"
+  },
+  {
+    "id": "apple-card",
+    "name": "Apple Card",
+    "issuer": "Goldman Sachs",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 660
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 15.24
+    },
+    "description": "Daily cash back: 3% on Apple purchases, 2% with Apple Pay, 1% with physical card"
+  },
+  {
+    "id": "paypal-cashback-mastercard",
+    "name": "PayPal Cashback Mastercard",
+    "issuer": "Synchrony Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 24.99
+    },
+    "description": "2% cash back on all purchases when you pay with PayPal, no annual fee"
+  },
+  {
+    "id": "alliant-cashback-visa",
+    "name": "Alliant Cashback Visa Signature",
+    "issuer": "Alliant Credit Union",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.025,
+      "groceries": 0.025,
+      "dining": 0.025,
+      "travel": 0.025,
+      "other": 0.025
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.49
+    },
+    "description": "2.5% cash back on all purchases for first $10,000 per billing cycle, requires Alliant membership"
+  },
+  {
+    "id": "fidelity-rewards-visa",
+    "name": "Fidelity Rewards Visa Signature",
+    "issuer": "Elan Financial",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "2% cash back on all purchases, automatically deposited into eligible Fidelity account"
+  },
+  {
+    "id": "penfed-pathfinder",
+    "name": "PenFed Pathfinder Rewards",
+    "issuer": "PenFed Credit Union",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.04,
+      "other": 0.01,
+      "bonus": {
+        "amount": 100,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 17.99
+    },
+    "description": "4x points on travel, $100 annual airline fee credit, TSA PreCheck credit, requires PenFed membership"
+  },
+  {
+    "id": "hilton-honors-aspire",
+    "name": "Hilton Honors Aspire Card",
+    "issuer": "American Express",
+    "annualFee": 450,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.07,
+      "travel": 0.07,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 4000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 720
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": null
+    },
+    "description": "14x Hilton points at Hilton properties, 7x flights and car rentals, $250 airline fee credit, $250 resort credit, Diamond status"
+  },
+  {
+    "id": "hyatt-world-of-hyatt",
+    "name": "World of Hyatt Credit Card",
+    "issuer": "Chase",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.04,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 3000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.49
+    },
+    "description": "Hyatt points, 4x at Hyatt, 2x on dining and fitness, one free night annually, Discoverist status"
+  },
+  {
+    "id": "amex-blue-business-plus",
+    "name": "Blue Business Plus Credit Card",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": null
+    },
+    "description": "Business card with 2x Membership Rewards points on first $50k in purchases per year, 1x after"
+  },
+  {
+    "id": "chase-ink-business-cash",
+    "name": "Ink Business Cash",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 900,
+        "spendRequired": 6000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.49
+    },
+    "description": "Business card: 5% cash back on first $25k at office supply stores and on internet/cable/phone, 2% on first $25k at gas stations and restaurants"
+  },
+  {
+    "id": "pnc-cash-rewards",
+    "name": "PNC Cash Rewards Visa",
+    "issuer": "PNC Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.04,
+      "groceries": 0.02,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "4% cash back on gas, 2% on groceries, 1% everything else"
+  },
+  {
+    "id": "petal-2-cash-back",
+    "name": "Petal 2 Visa Credit Card",
+    "issuer": "WebBank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 600
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 16.99
+    },
+    "description": "1% cash back on eligible purchases, increases to 1.25% after 6 on-time payments, then 1.5% after 12"
+  },
+  {
+    "id": "sofi-credit-card",
+    "name": "SoFi Credit Card",
+    "issuer": "The Bank of Missouri",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "2% unlimited cash back, redeem into SoFi Invest, savings, or loans for 3% value"
+  },
+  {
+    "id": "alaska-airlines-visa",
+    "name": "Alaska Airlines Visa Signature",
+    "issuer": "Bank of America",
+    "annualFee": 75,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 2000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 20.99
+    },
+    "description": "Alaska Airlines miles, 3x on Alaska purchases, 2x on gas/dining/cable, companion fare"
+  },
+  {
+    "id": "jetblue-plus",
+    "name": "JetBlue Plus Card",
+    "issuer": "Barclays",
+    "annualFee": 99,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.06,
+      "other": 0.01,
+      "bonus": {
+        "amount": 100,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "JetBlue points, 6x on JetBlue, 2x at restaurants and grocery stores, first checked bag free"
+  },
+  {
+    "id": "jetblue-card",
+    "name": "JetBlue Card",
+    "issuer": "Barclays",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 100,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 21.24
+    },
+    "description": "JetBlue points, 3x on JetBlue purchases, 1x everything else, no annual fee"
+  },
+  {
+    "id": "hawaiian-airlines-world-elite",
+    "name": "Hawaiian Airlines World Elite Mastercard",
+    "issuer": "Barclays",
+    "annualFee": 89,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 2000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "Hawaiian Airlines miles, 3x on Hawaiian Airlines purchases, companion discount, checked bag free"
+  },
+  {
+    "id": "frontier-world-mastercard",
+    "name": "Frontier Airlines World Mastercard",
+    "issuer": "Barclays",
+    "annualFee": 79,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "Frontier miles, 5x on Frontier purchases, 20k bonus miles annually, $99 companion ticket"
+  },
+  {
+    "id": "spirit-world-mastercard",
+    "name": "Free Spirit Travel More World Elite Mastercard",
+    "issuer": "Barclays",
+    "annualFee": 79,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 650,
+        "spendRequired": 5000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "Spirit Airlines miles, 2x on everything, $100 flight voucher annually, no foreign transaction fees"
+  },
+  {
+    "id": "ihg-one-rewards-premier",
+    "name": "IHG One Rewards Premier Credit Card",
+    "issuer": "Chase",
+    "annualFee": 99,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 3000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.49
+    },
+    "description": "IHG points, 5x at IHG hotels, 3x on dining/gas/grocery stores, free night annually, Platinum status"
+  },
+  {
+    "id": "ihg-one-rewards-traveler",
+    "name": "IHG One Rewards Traveler Credit Card",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 250,
+        "spendRequired": 2000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 21.49
+    },
+    "description": "IHG points, 3x at IHG hotels, 2x on gas/grocery/restaurants, no annual fee"
+  },
+  {
+    "id": "marriott-bonvoy-brilliant",
+    "name": "Marriott Bonvoy Brilliant American Express",
+    "issuer": "American Express",
+    "annualFee": 650,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.06,
+      "travel": 0.06,
+      "other": 0.01,
+      "bonus": {
+        "amount": 900,
+        "spendRequired": 6000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 720
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": null
+    },
+    "description": "Marriott points, 6x at Marriott, 3x on flights and dining, $300 Marriott credit, Platinum Elite status"
+  },
+  {
+    "id": "marriott-bonvoy-bold",
+    "name": "Marriott Bonvoy Bold Credit Card",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 21.49
+    },
+    "description": "Marriott points, 3x at Marriott, 2x on travel, no annual fee"
+  },
+  {
+    "id": "hilton-honors-surpass",
+    "name": "Hilton Honors Surpass Card",
+    "issuer": "American Express",
+    "annualFee": 150,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.03,
+      "dining": 0.06,
+      "travel": 0.06,
+      "other": 0.01,
+      "bonus": {
+        "amount": 400,
+        "spendRequired": 3000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": 20.99
+    },
+    "description": "Hilton points, 12x at Hilton, 6x at U.S. restaurants/supermarkets/gas stations, Gold status"
+  },
+  {
+    "id": "hilton-honors",
+    "name": "Hilton Honors Card",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 20.99
+    },
+    "description": "Hilton points, 7x at Hilton properties, 5x at restaurants/grocery/gas, no annual fee"
+  },
+  {
+    "id": "ihg-rewards-club-premier",
+    "name": "IHG Rewards Club Premier Credit Card",
+    "issuer": "Chase",
+    "annualFee": 89,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 3000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.49
+    },
+    "description": "IHG points, 10x at IHG hotels, 2x on gas/grocery/restaurants, free night annually, Platinum Elite status"
+  },
+  {
+    "id": "amazon-prime-rewards",
+    "name": "Amazon Prime Rewards Visa Signature",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 150,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.49
+    },
+    "description": "5% back on Amazon and Whole Foods (requires Prime membership), 2% dining/gas/drugstores, 1% everything else"
+  },
+  {
+    "id": "amazon-rewards",
+    "name": "Amazon Rewards Visa Signature",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 50,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.49
+    },
+    "description": "3% back on Amazon (no Prime required), 2% dining/gas/drugstores, 1% everything else"
+  },
+  {
+    "id": "costco-anywhere-visa",
+    "name": "Costco Anywhere Visa Card by Citi",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.04,
+      "groceries": 0.01,
+      "dining": 0.03,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 20.24
+    },
+    "description": "4% on eligible gas, 3% restaurants and travel, 2% Costco, 1% everything else (requires Costco membership)"
+  },
+  {
+    "id": "target-redcard",
+    "name": "Target RedCard",
+    "issuer": "TD Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.05,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.05
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 640
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 26.99
+    },
+    "description": "5% discount on Target purchases, free shipping, extended returns, no annual fee"
+  },
+  {
+    "id": "walmart-rewards",
+    "name": "Walmart Rewards Card",
+    "issuer": "Capital One",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.05,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 640
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 26.99
+    },
+    "description": "5% on Walmart.com purchases, 2% on Walmart stores and Murphy USA, 1% everywhere else"
+  },
+  {
+    "id": "best-buy-visa",
+    "name": "My Best Buy Credit Card",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 27.74
+    },
+    "description": "5% back in rewards at Best Buy, special financing options, exclusive cardholder offers"
+  },
+  {
+    "id": "home-depot-consumer",
+    "name": "Home Depot Consumer Credit Card",
+    "issuer": "Citizens Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 640
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 28.99
+    },
+    "description": "Special financing on purchases $299+, exclusive offers, no annual fee"
+  },
+  {
+    "id": "lowes-advantage",
+    "name": "Lowe's Advantage Credit Card",
+    "issuer": "Synchrony Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 640
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 28.99
+    },
+    "description": "5% discount on eligible purchases, special financing options, no annual fee"
+  },
+  {
+    "id": "citi-diamond-preferred",
+    "name": "Citi Diamond Preferred Card",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 660
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "Balance transfer card with 0% intro APR for 21 months, no annual fee"
+  },
+  {
+    "id": "citi-rewards-plus",
+    "name": "Citi Rewards+ Student Card",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1500,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": true,
+      "minAge": 18,
+      "creditScoreMin": 630
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "Student card: 2x points on purchases, points round up to nearest 10, ThankYou points"
+  },
+  {
+    "id": "amex-green",
+    "name": "American Express Green Card",
+    "issuer": "American Express",
+    "annualFee": 150,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.03,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 450,
+        "spendRequired": 3000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": null
+    },
+    "description": "3x points on travel and transit, 3x on dining, $189 CLEAR credit, $100 LoungeBuddy credit"
+  },
+  {
+    "id": "amex-blue-business-cash",
+    "name": "Blue Business Cash Card",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.49
+    },
+    "description": "Business card: 2% cash back on first $50k in purchases per year, then 1%"
+  },
+  {
+    "id": "capital-one-platinum",
+    "name": "Capital One Platinum Credit Card",
+    "issuer": "Capital One",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 580
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 28.49
+    },
+    "description": "Build credit with no annual fee, credit limit increases, access to higher credit scores"
+  },
+  {
+    "id": "capital-one-platinum-secured",
+    "name": "Capital One Platinum Secured",
+    "issuer": "Capital One",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 300
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 28.49
+    },
+    "description": "Secured card to build credit, refundable deposit, no annual fee, credit limit can increase"
+  },
+  {
+    "id": "chase-freedom-rise",
+    "name": "Chase Freedom Rise",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.015,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 25,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 580
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 20.49
+    },
+    "description": "Build credit card with 1.5% cash back on all purchases, $25 bonus after first purchase"
+  },
+  {
+    "id": "discover-secured",
+    "name": "Discover it Secured",
+    "issuer": "Discover",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 300
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 22.99
+    },
+    "description": "Secured card: 2% cash back on gas and restaurants up to $1,000 per quarter, 1% everything else"
+  },
+  {
+    "id": "bank-of-america-travel-rewards",
+    "name": "Bank of America Travel Rewards Credit Card",
+    "issuer": "Bank of America",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.015,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 250,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 18.24
+    },
+    "description": "1.5x points on all purchases, no expiration on points, no foreign transaction fees"
+  },
+  {
+    "id": "bank-of-america-cash-rewards-student",
+    "name": "Bank of America Cash Rewards for Students",
+    "issuer": "Bank of America",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": true,
+      "minAge": 18,
+      "creditScoreMin": 630
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.24
+    },
+    "description": "Student card: 3% cash back in category of choice, 2% at grocery stores/wholesale clubs, 1% everything else"
+  },
+  {
+    "id": "wells-fargo-platinum",
+    "name": "Wells Fargo Platinum Card",
+    "issuer": "Wells Fargo",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 660
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "0% intro APR for 18 months on purchases and balance transfers, cell phone protection"
+  },
+  {
+    "id": "wells-fargo-reflect",
+    "name": "Wells Fargo Reflect Card",
+    "issuer": "Wells Fargo",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "Long intro APR period: 0% for 21 months on purchases and qualifying balance transfers"
+  },
+  {
+    "id": "us-bank-platinum",
+    "name": "U.S. Bank Platinum Card",
+    "issuer": "U.S. Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "0% intro APR for 20 billing cycles on purchases and balance transfers, no annual fee"
+  },
+  {
+    "id": "us-bank-cash-plus-visa-signature",
+    "name": "U.S. Bank Cash+ Visa Signature",
+    "issuer": "U.S. Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "Choose two 5% categories and one 2% category each quarter, $2,000 quarterly cap"
+  },
+  {
+    "id": "delta-skymiles-platinum",
+    "name": "Delta SkyMiles Platinum American Express",
+    "issuer": "American Express",
+    "annualFee": 250,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 3000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": 20.99
+    },
+    "description": "Delta miles, 3x on Delta purchases, 2x at restaurants worldwide, companion certificate, Medallion Qualification Miles"
+  },
+  {
+    "id": "delta-skymiles-blue",
+    "name": "Delta SkyMiles Blue American Express",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 100,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 20.99
+    },
+    "description": "Delta miles, 2x on Delta purchases, 1x everything else, no annual fee"
+  },
+  {
+    "id": "southwest-rapid-rewards-priority",
+    "name": "Southwest Rapid Rewards Priority",
+    "issuer": "Chase",
+    "annualFee": 149,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 300,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": 21.99
+    },
+    "description": "Southwest points, 2x on Southwest purchases, $75 annual credit, 7,500 anniversary points, A-List status boost"
+  },
+  {
+    "id": "southwest-rapid-rewards-premier",
+    "name": "Southwest Rapid Rewards Premier",
+    "issuer": "Chase",
+    "annualFee": 99,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 300,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": 21.99
+    },
+    "description": "Southwest points, 2x on Southwest purchases, 6,000 anniversary points, early bird check-in discounts"
+  },
+  {
+    "id": "united-club-infinite",
+    "name": "United Club Infinite Card",
+    "issuer": "Chase",
+    "annualFee": 525,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.04,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 5000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 720
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.99
+    },
+    "description": "United miles, 4x on United purchases, United Club membership, first checked bag free, Premier Access"
+  },
+  {
+    "id": "united-quest",
+    "name": "United Quest Card",
+    "issuer": "Chase",
+    "annualFee": 250,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 4000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.99
+    },
+    "description": "United miles, 3x on United purchases, 2x on dining/travel, up to $125 United credit, free checked bag"
+  },
+  {
+    "id": "amex-everyday-preferred",
+    "name": "American Express Everyday Preferred",
+    "issuer": "American Express",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.03,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 300,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.24
+    },
+    "description": "3x points at U.S. supermarkets (up to $6k/year), 2x gas stations, 1x everything else, 50% bonus if 30+ transactions/month"
+  },
+  {
+    "id": "amex-everyday",
+    "name": "American Express Everyday Card",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.24
+    },
+    "description": "2x points at U.S. supermarkets (up to $6k/year), 1x everything else, 20% bonus if 20+ transactions/month, no annual fee"
+  },
+  {
+    "id": "chase-slate-edge",
+    "name": "Chase Slate Edge",
+    "issuer": "Chase",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 20.49
+    },
+    "description": "0% intro APR for 18 months, balance transfer fee waived first 60 days, credit limit increase opportunities"
+  },
+  {
+    "id": "citi-aa-executive",
+    "name": "Citi AAdvantage Executive World Elite Mastercard",
+    "issuer": "Citi",
+    "annualFee": 595,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 7000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 720
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "American Airlines miles, 2x on American Airlines purchases, Admirals Club membership, first checked bag free"
+  },
+  {
+    "id": "citi-aa-platinum-select",
+    "name": "Citi AAdvantage Platinum Select World Elite Mastercard",
+    "issuer": "Citi",
+    "annualFee": 99,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 2500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "American Airlines miles, 2x on American Airlines/gas/restaurants, first checked bag free, priority boarding"
+  },
+  {
+    "id": "citi-aa-mileup",
+    "name": "Citi AAdvantage MileUp",
+    "issuer": "Citi",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 100,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "American Airlines miles, 2x miles at grocery stores and on American Airlines purchases, no annual fee"
+  },
+  {
+    "id": "barclays-arrival-plus",
+    "name": "Barclays Arrival Plus World Elite Mastercard",
+    "issuer": "Barclays",
+    "annualFee": 89,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 5000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 22.99
+    },
+    "description": "2x miles on all purchases, 5% miles back on redemptions, redeem for any travel purchase"
+  },
+  {
+    "id": "barclays-wyndham-earners-plus",
+    "name": "Wyndham Rewards Earner Plus Card",
+    "issuer": "Barclays",
+    "annualFee": 75,
+    "rewards": {
+      "gas": 0.06,
+      "groceries": 0.06,
+      "dining": 0.06,
+      "travel": 0.08,
+      "other": 0.01,
+      "bonus": {
+        "amount": 600,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "Wyndham points, 8x on Wyndham hotels, 6x on gas/grocery/dining, 1x everything else, Gold status"
+  },
+  {
+    "id": "barclays-wyndham-earners",
+    "name": "Wyndham Rewards Earner Card",
+    "issuer": "Barclays",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.05,
+      "groceries": 0.05,
+      "dining": 0.05,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 300,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 21.24
+    },
+    "description": "Wyndham points, 5x on Wyndham/gas/grocery/dining, 1x everything else, no annual fee"
+  },
+  {
+    "id": "choice-privileges-select",
+    "name": "Choice Privileges Select Mastercard",
+    "issuer": "Barclays",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 400,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 21.24
+    },
+    "description": "Choice points, 5x on Choice hotels, 3x on gas/grocery/dining, free night annually, Platinum status"
+  },
+  {
+    "id": "choice-privileges",
+    "name": "Choice Privileges Mastercard",
+    "issuer": "Barclays",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 250,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 21.24
+    },
+    "description": "Choice points, 3x on Choice hotels, 2x on gas/grocery/dining, no annual fee"
+  },
+  {
+    "id": "best-western-rewards-premier",
+    "name": "Best Western Rewards Premium Mastercard",
+    "issuer": "First National Bank",
+    "annualFee": 89,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 19.99
+    },
+    "description": "Best Western points, 5x on Best Western, free night annually, Diamond Select status"
+  },
+  {
+    "id": "penfed-power-cash-rewards",
+    "name": "PenFed Power Cash Rewards Visa Signature",
+    "issuer": "PenFed Credit Union",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 17.99
+    },
+    "description": "2% cash back on all purchases, requires PenFed membership, no annual fee"
+  },
+  {
+    "id": "synchrony-premier-mastercard",
+    "name": "Synchrony Premier World Mastercard",
+    "issuer": "Synchrony Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": false,
+      "apr": 24.99
+    },
+    "description": "2% cash back on all purchases, no annual fee, no foreign transaction fees"
+  },
+  {
+    "id": "nerdwallet-credit-card",
+    "name": "NerdWallet Credit Card",
+    "issuer": "First National Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.025,
+      "groceries": 0.025,
+      "dining": 0.025,
+      "travel": 0.025,
+      "other": 0.025,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 1000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "2.5% cash back on all purchases for first year (then 2%), no annual fee"
+  },
+  {
+    "id": "blue-cash-everyday-student",
+    "name": "Blue Cash Everyday Card from American Express (Student)",
+    "issuer": "American Express",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.03,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 2000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": true,
+      "minAge": 18,
+      "creditScoreMin": 650
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.24
+    },
+    "description": "Student version: 3% cash back at U.S. supermarkets (up to $6k/year), 3% on U.S. online retail purchases, 1% everything else"
+  },
+  {
+    "id": "capital-one-student",
+    "name": "Journey Student Rewards",
+    "issuer": "Capital One",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": true,
+      "minAge": 18,
+      "creditScoreMin": 600
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 19.99
+    },
+    "description": "Student card: 1% cash back on all purchases, 0.25% bonus for paying on time (total 1.25%)"
+  },
+  {
+    "id": "bank-of-america-advantage-travel-rewards",
+    "name": "Alaska Airlines Visa Business Card",
+    "issuer": "Bank of America",
+    "annualFee": 75,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.02,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 2000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 20.99
+    },
+    "description": "Business card: Alaska miles, 3x on Alaska purchases, 2x on gas/dining/cable/phone, companion fare"
+  },
+  {
+    "id": "chase-ink-business-preferred",
+    "name": "Ink Business Preferred Credit Card",
+    "issuer": "Chase",
+    "annualFee": 95,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.03,
+      "other": 0.01,
+      "bonus": {
+        "amount": 1200,
+        "spendRequired": 8000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.49
+    },
+    "description": "Business card: 3x points on first $150k in travel/shipping/internet/cable/phone/advertising each year, 1x everything else"
+  },
+  {
+    "id": "amex-business-gold",
+    "name": "American Express Business Gold Card",
+    "issuer": "American Express",
+    "annualFee": 295,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.04,
+      "travel": 0.04,
+      "other": 0.01,
+      "bonus": {
+        "amount": 1300,
+        "spendRequired": 10000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 700
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": null
+    },
+    "description": "Business card: 4x points on top 2 spending categories each month (up to $150k/year), includes airfare, ads, shipping, restaurants"
+  },
+  {
+    "id": "amex-business-platinum",
+    "name": "The Business Platinum Card from American Express",
+    "issuer": "American Express",
+    "annualFee": 695,
+    "rewards": {
+      "gas": 0.01,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 1500,
+        "spendRequired": 15000,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 750
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": true,
+      "apr": null
+    },
+    "description": "Business premium card: 5x on flights and prepaid hotels, lounge access, $400 Dell credit, $200 airline fee credit, WeWork membership"
+  },
+  {
+    "id": "capital-one-spark-cash-plus",
+    "name": "Capital One Spark Cash Plus",
+    "issuer": "Capital One",
+    "annualFee": 150,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 1200,
+        "spendRequired": 50000,
+        "monthsToComplete": 6
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 720
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 20.99
+    },
+    "description": "Business card: 2% cash back on all purchases, $1,200 annual cash bonus"
+  },
+  {
+    "id": "us-bank-business-altitude",
+    "name": "U.S. Bank Business Altitude Connect World Elite Mastercard",
+    "issuer": "U.S. Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.04,
+      "groceries": 0.02,
+      "dining": 0.04,
+      "travel": 0.05,
+      "other": 0.01,
+      "bonus": {
+        "amount": 500,
+        "spendRequired": 4500,
+        "monthsToComplete": 4
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 690
+    },
+    "features": {
+      "noForeignTransactionFee": true,
+      "travelBenefits": true,
+      "apr": 18.99
+    },
+    "description": "Business card: 5x points on prepaid hotels/car rentals, 4x on travel/gas/dining, $100 TSA PreCheck/Global Entry credit"
+  },
+  {
+    "id": "first-tech-choice-rewards",
+    "name": "First Tech Choice Rewards World Mastercard",
+    "issuer": "First Tech Federal Credit Union",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.9
+    },
+    "description": "2% cash back on all purchases, requires First Tech membership"
+  },
+  {
+    "id": "upgrade-cash-rewards",
+    "name": "Upgrade Cash Rewards Visa",
+    "issuer": "Cross River Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.015,
+      "groceries": 0.015,
+      "dining": 0.015,
+      "travel": 0.015,
+      "other": 0.015,
+      "bonus": {
+        "amount": 200,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 660
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 14.99
+    },
+    "description": "1.5% cash back on all purchases, fixed-rate APR option"
+  },
+  {
+    "id": "state-department-federal-credit-union",
+    "name": "State Department Federal Credit Union Premium CashBack+",
+    "issuer": "State Department FCU",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.02,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.02,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 680
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 17.99
+    },
+    "description": "2% cash back on all purchases, requires SDFCU membership"
+  },
+  {
+    "id": "t-mobile-money-card",
+    "name": "T-Mobile MONEY Credit Card",
+    "issuer": "First National Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.04,
+      "groceries": 0.04,
+      "dining": 0.04,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 18.99
+    },
+    "description": "4% cash back on first $3,800 in gas/grocery/dining (requires T-Mobile account), then 1%"
+  },
+  {
+    "id": "paypal-extras-mastercard",
+    "name": "PayPal Extras Mastercard",
+    "issuer": "Synchrony Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.02,
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01,
+      "bonus": {
+        "amount": 100,
+        "spendRequired": 500,
+        "monthsToComplete": 3
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 670
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 24.99
+    },
+    "description": "3% on gas, 2% on restaurants and PayPal purchases, 1% everything else"
+  },
+  {
+    "id": "venmo-credit-card",
+    "name": "Venmo Credit Card",
+    "issuer": "Synchrony Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.03,
+      "groceries": 0.03,
+      "dining": 0.03,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 660
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 24.99
+    },
+    "description": "3% back on top spending category, 2% on second category, 1% everything else, redeemed to Venmo account"
+  },
+  {
+    "id": "synchrony-car-care",
+    "name": "Synchrony Car Care Credit Card",
+    "issuer": "Synchrony Bank",
+    "annualFee": 0,
+    "rewards": {
+      "gas": 0.06,
+      "groceries": 0.01,
+      "dining": 0.01,
+      "travel": 0.01,
+      "other": 0.01,
+      "bonus": {
+        "amount": 0,
+        "spendRequired": 0,
+        "monthsToComplete": 0
+      }
+    },
+    "eligibility": {
+      "student": false,
+      "minAge": 18,
+      "creditScoreMin": 640
+    },
+    "features": {
+      "noForeignTransactionFee": false,
+      "travelBenefits": false,
+      "apr": 27.99
+    },
+    "description": "6% back on gas, 3% on auto maintenance/parts, 1% everything else, special financing on auto repairs"
+  }
+]

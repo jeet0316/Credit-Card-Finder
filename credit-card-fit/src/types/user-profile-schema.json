@@ -1,0 +1,170 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Profile Schema",
+  "description": "Schema for user profile data used throughout the application",
+  "type": "object",
+  "required": [
+    "purpose",
+    "monthlySpending",
+    "eligibility",
+    "paymentBehavior"
+  ],
+  "properties": {
+    "purpose": {
+      "type": "string",
+      "enum": ["travel", "business", "everyday-cashback", "build-credit", "balance-transfer"],
+      "description": "Primary purpose for getting the credit card"
+    },
+    "monthlySpending": {
+      "type": "object",
+      "description": "Monthly spending amounts by category",
+      "properties": {
+        "dining": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Restaurants, cafes, fast food (dollars per month)"
+        },
+        "groceries": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Supermarkets (dollars per month)"
+        },
+        "gas": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Gas / EV charging (dollars per month)"
+        },
+        "travel": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Airlines, hotels, rentals, cruises (dollars per month)"
+        },
+        "transit": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Rideshare, parking, tolls, public transit (dollars per month)"
+        },
+        "drugstores": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Drugstores / pharmacies (dollars per month)"
+        },
+        "streaming": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Streaming / subscriptions (dollars per month)"
+        },
+        "onlineShopping": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Online shopping / retail (dollars per month)"
+        },
+        "entertainment": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Entertainment (dollars per month)"
+        },
+        "homeImprovement": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Home improvement (dollars per month)"
+        },
+        "utilities": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Utilities / phone bill (dollars per month)"
+        },
+        "other": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Everything else (dollars per month)"
+        }
+      },
+      "required": [
+        "dining",
+        "groceries",
+        "gas",
+        "travel",
+        "transit",
+        "drugstores",
+        "streaming",
+        "onlineShopping",
+        "entertainment",
+        "homeImprovement",
+        "utilities",
+        "other"
+      ]
+    },
+    "eligibility": {
+      "type": "object",
+      "description": "Eligibility and gate questions",
+      "properties": {
+        "hasExistingCard": {
+          "type": "boolean",
+          "description": "Already have a credit card?"
+        },
+        "existingCardIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of card IDs the user already has (to avoid recommending duplicates)"
+        },
+        "isStudent": {
+          "type": "boolean",
+          "description": "Are you a student?"
+        },
+        "under21": {
+          "type": "boolean",
+          "description": "Are you under 18? (Reg Z considerations for approvals/limit increases)"
+        }
+      },
+      "required": ["hasExistingCard", "isStudent", "under21"]
+    },
+    "paymentBehavior": {
+      "type": "object",
+      "description": "Payment behavior and preferences",
+      "properties": {
+        "paysInFull": {
+          "type": "boolean",
+          "description": "Do you pay in full monthly? (If No, APR matters way more than rewards)"
+        },
+        "prefersNoAnnualFee": {
+          "type": "boolean",
+          "description": "Prefer cards with no annual fee?"
+        },
+        "needsTravelBenefits": {
+          "type": "boolean",
+          "description": "Need travel benefits / no foreign transaction fees?"
+        }
+      },
+      "required": ["paysInFull"]
+    },
+    "filters": {
+      "type": "object",
+      "description": "Additional filters and preferences",
+      "properties": {
+        "maxAnnualFee": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Maximum annual fee willing to pay (dollars)"
+        },
+        "minCreditScore": {
+          "type": "number",
+          "minimum": 300,
+          "maximum": 850,
+          "description": "User's approximate credit score (for eligibility filtering)"
+        },
+        "mustHaveNoForeignTransactionFee": {
+          "type": "boolean",
+          "description": "Must have no foreign transaction fees"
+        },
+        "mustHaveTravelBenefits": {
+          "type": "boolean",
+          "description": "Must have travel benefits (lounge access, travel insurance, etc.)"
+        }
+      }
+    }
+  }
+}
+
