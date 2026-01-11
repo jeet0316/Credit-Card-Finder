@@ -1277,6 +1277,8 @@
   background: #6b46c1;
   padding: 2.5rem;
   min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .results-header {
@@ -1378,6 +1380,7 @@
   position: relative;
   overflow: hidden;
   border-top: 4px solid #6b46c1;
+  box-sizing: border-box;
 }
 
 .results-container.fade-in-slide .card-recommendation {
@@ -1931,6 +1934,14 @@
     grid-template-columns: 1fr;
   }
 
+  .results-container {
+    padding: 1rem;
+  }
+
+  .card-recommendation {
+    padding: 1.5rem;
+  }
+
   .card-header {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -1942,6 +1953,10 @@
 
   .results-header {
     flex-direction: column;
+  }
+
+  .results-header h1 {
+    font-size: 2rem;
   }
 
   .spending-summary {
